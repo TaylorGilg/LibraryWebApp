@@ -22,12 +22,12 @@ git clone https://github.com/your-username/LibraryWebApp.git
       - Note: In order to run this web app, you must use your own MongoDB account and uncomment line 5 of index.js, filling in your own corresponding credentials.
 
 ### Running the Repo
-1. I suggest downloading Compass for MongoDB management to easily start up the database and be able to see user changes to database values. 
-  - Note: The repo populates a database of books and respective attributes on startup if one by the name of LibraryDB does not already exist. 
-2. node index.js (starts the backend, for development purposes the backend and frontend operate on different ports)
-3. cd library-client
-4. npm start (to start the front end)
-5. Answer "Y" to prompt: 
+1. I suggest downloading Compass for MongoDB management to easily start up the database and be able to see user changes to database values.
+   - Note: The repo populates a database of books and respective attributes on startup if one by the name of LibraryDB does not already exist. 
+3. node index.js (starts the backend, for development purposes the backend and frontend operate on different ports)
+4. cd library-client
+5. npm start (to start the front end)
+6. Answer "Y" to prompt: 
 √ Something is already running on port 3000.
 Would you like to run the app on another port instead? (Y/n)
 7. The site should now be running now on http://localhost:3001
