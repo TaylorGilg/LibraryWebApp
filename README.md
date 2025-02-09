@@ -15,15 +15,15 @@ This project is a Library Management System built using React for the frontend a
 ### Installation
 1. Clone the repository:
 git clone https://github.com/your-username/LibraryWebApp.git
-cd LibraryWebApp
 
-2. Install Dependencies: 
-npm install
-Note: In order to run this web app, you must use your own MongoDB account and uncomment line 5 of index.js, filling in your own corresponding credentials.
+2. Install Dependencies:
+   1. cd LibraryWebApp
+   2. npm install
+      - Note: In order to run this web app, you must use your own MongoDB account and uncomment line 5 of index.js, filling in your own corresponding credentials.
 
 ### Running the Repo
 1. I suggest downloading Compass for MongoDB management to easily start up the database and be able to see user changes to database values. 
-Note: The repo populates a database of books and respective attributes on startup if one by the name of LibraryDB does not already exist. 
+  - Note: The repo populates a database of books and respective attributes on startup if one by the name of LibraryDB does not already exist. 
 2. node index.js (starts the backend, for development purposes the backend and frontend operate on different ports)
 3. cd library-client
 4. npm start (to start the front end)
