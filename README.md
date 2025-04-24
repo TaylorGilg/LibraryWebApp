@@ -33,7 +33,7 @@ Would you like to run the app on another port instead? (Y/n)
 7. The site should now be running now on http://localhost:3001
 
 Here's a demo of the site (User interactions and changes to values should be able to be seen in the database itself via Compass MongoDB)
-https://github.com/user-attachments/assets/b09945d3-970a-4efd-aa43-fc33bbd36157
+https://github.com/user-attachments/assets/ceedbc15-caf3-45bd-b82a-44c7f597d25e 
 
 Testing and API endpoint debugging done with Postman
 
